@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB38B66257FDF0100B6F106 /* SelectedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB38B65257FDF0000B6F106 /* SelectedImageView.swift */; };
+		3CB38B7425802CE400B6F106 /* NotoSansMonoCJKtc-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB38B6B25802CE400B6F106 /* NotoSansMonoCJKtc-Bold.otf */; };
+		3CB38B7525802CE400B6F106 /* NotoSansCJKtc-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB38B6C25802CE400B6F106 /* NotoSansCJKtc-Regular.otf */; };
+		3CB38B7625802CE400B6F106 /* NotoSansCJKtc-DemiLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB38B6D25802CE400B6F106 /* NotoSansCJKtc-DemiLight.otf */; };
+		3CB38B7725802CE400B6F106 /* NotoSansCJKtc-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB38B6E25802CE400B6F106 /* NotoSansCJKtc-Thin.otf */; };
+		3CB38B7825802CE400B6F106 /* NotoSansCJKtc-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB38B6F25802CE400B6F106 /* NotoSansCJKtc-Medium.otf */; };
+		3CB38B7925802CE400B6F106 /* NotoSansCJKtc-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB38B7025802CE400B6F106 /* NotoSansCJKtc-Bold.otf */; };
+		3CB38B7A25802CE400B6F106 /* NotoSansCJKtc-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB38B7125802CE400B6F106 /* NotoSansCJKtc-Light.otf */; };
+		3CB38B7B25802CE400B6F106 /* NotoSansMonoCJKtc-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB38B7225802CE400B6F106 /* NotoSansMonoCJKtc-Regular.otf */; };
+		3CB38B7C25802CE400B6F106 /* NotoSansCJKtc-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB38B7325802CE400B6F106 /* NotoSansCJKtc-Black.otf */; };
+		3CB38B8A2580DB1F00B6F106 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB38B892580DB1F00B6F106 /* RootTabView.swift */; };
+		3CB38B922580DD3A00B6F106 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB38B912580DD3A00B6F106 /* OrderView.swift */; };
+		3CF7E7BD2579776C00606A58 /* Ian_Pizza_CompanyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7E7BC2579776C00606A58 /* Ian_Pizza_CompanyApp.swift */; };
+		3CF7E7BF2579776C00606A58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7E7BE2579776C00606A58 /* ContentView.swift */; };
+		3CF7E7C12579776F00606A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF7E7C02579776F00606A58 /* Assets.xcassets */; };
+		3CF7E7C42579776F00606A58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF7E7C32579776F00606A58 /* Preview Assets.xcassets */; };
+		3CF7E7CF2579777000606A58 /* Ian_Pizza_CompanyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7E7CE2579777000606A58 /* Ian_Pizza_CompanyTests.swift */; };
+		3CF7E7DA2579777000606A58 /* Ian_Pizza_CompanyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7E7D92579777000606A58 /* Ian_Pizza_CompanyUITests.swift */; };
+		3CF7E7FD2579794400606A58 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7E7FC2579794400606A58 /* HeaderView.swift */; };
+		3CF7E80625797FE400606A58 /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7E80525797FE400606A58 /* ListHeaderView.swift */; };
+		3CF7E81A257985AD00606A58 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7E817257985AD00606A58 /* MenuModel.swift */; };
+		3CF7E8242579860600606A58 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7E8232579860600606A58 /* MenuRowView.swift */; };
+		3CF7E8292579861500606A58 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7E8282579861500606A58 /* MenuListView.swift */; };
+		3CF7E83D257B2E2C00606A58 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7E83C257B2E2C00606A58 /* OrderRowView.swift */; };
+		3CF7E842257B2E3600606A58 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7E841257B2E3600606A58 /* OrderListView.swift */; };
+		3CF7E84F257B307500606A58 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7E84E257B307500606A58 /* OrderModel.swift */; };
+		3CF7E85A257B722600606A58 /* IngredientRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7E859257B722600606A58 /* IngredientRowView.swift */; };
+		3CF7E862257B731B00606A58 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7E861257B731B00606A58 /* MenuDetailView.swift */; };
+		3CF7E867257D00F200606A58 /* PageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7E866257D00F100606A58 /* PageHeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CF7E7CB2579777000606A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF7E7B12579776C00606A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF7E7B82579776C00606A58;
+			remoteInfo = "Ian Pizza Company";
+		};
+		3CF7E7D62579777000606A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF7E7B12579776C00606A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF7E7B82579776C00606A58;
+			remoteInfo = "Ian Pizza Company";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CB38B65257FDF0000B6F106 /* SelectedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImageView.swift; sourceTree = "<group>"; };
+		3CB38B6B25802CE400B6F106 /* NotoSansMonoCJKtc-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMonoCJKtc-Bold.otf"; sourceTree = "<group>"; };
+		3CB38B6C25802CE400B6F106 /* NotoSansCJKtc-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKtc-Regular.otf"; sourceTree = "<group>"; };
+		3CB38B6D25802CE400B6F106 /* NotoSansCJKtc-DemiLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKtc-DemiLight.otf"; sourceTree = "<group>"; };
+		3CB38B6E25802CE400B6F106 /* NotoSansCJKtc-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKtc-Thin.otf"; sourceTree = "<group>"; };
+		3CB38B6F25802CE400B6F106 /* NotoSansCJKtc-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKtc-Medium.otf"; sourceTree = "<group>"; };
+		3CB38B7025802CE400B6F106 /* NotoSansCJKtc-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKtc-Bold.otf"; sourceTree = "<group>"; };
+		3CB38B7125802CE400B6F106 /* NotoSansCJKtc-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKtc-Light.otf"; sourceTree = "<group>"; };
+		3CB38B7225802CE400B6F106 /* NotoSansMonoCJKtc-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMonoCJKtc-Regular.otf"; sourceTree = "<group>"; };
+		3CB38B7325802CE400B6F106 /* NotoSansCJKtc-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKtc-Black.otf"; sourceTree = "<group>"; };
+		3CB38B892580DB1F00B6F106 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		3CB38B912580DD3A00B6F106 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		3CF7E7B92579776C00606A58 /* Ian Pizza Company.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ian Pizza Company.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF7E7BC2579776C00606A58 /* Ian_Pizza_CompanyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ian_Pizza_CompanyApp.swift; sourceTree = "<group>"; };
+		3CF7E7BE2579776C00606A58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CF7E7C02579776F00606A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CF7E7C32579776F00606A58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CF7E7C52579776F00606A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF7E7CA2579777000606A58 /* Ian Pizza CompanyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ian Pizza CompanyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF7E7CE2579777000606A58 /* Ian_Pizza_CompanyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ian_Pizza_CompanyTests.swift; sourceTree = "<group>"; };
+		3CF7E7D02579777000606A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF7E7D52579777000606A58 /* Ian Pizza CompanyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ian Pizza CompanyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF7E7D92579777000606A58 /* Ian_Pizza_CompanyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ian_Pizza_CompanyUITests.swift; sourceTree = "<group>"; };
+		3CF7E7DB2579777000606A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF7E7FC2579794400606A58 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3CF7E80525797FE400606A58 /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
+		3CF7E817257985AD00606A58 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		3CF7E8232579860600606A58 /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		3CF7E8282579861500606A58 /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
+		3CF7E83C257B2E2C00606A58 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		3CF7E841257B2E3600606A58 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		3CF7E84E257B307500606A58 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		3CF7E859257B722600606A58 /* IngredientRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientRowView.swift; sourceTree = "<group>"; };
+		3CF7E861257B731B00606A58 /* MenuDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
+		3CF7E866257D00F100606A58 /* PageHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageHeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CF7E7B62579776C00606A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF7E7C72579777000606A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF7E7D22579777000606A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB38B6A25802CCC00B6F106 /* FontStyle */ = {
+			isa = PBXGroup;
+			children = (
+				3CB38B7325802CE400B6F106 /* NotoSansCJKtc-Black.otf */,
+				3CB38B7025802CE400B6F106 /* NotoSansCJKtc-Bold.otf */,
+				3CB38B6D25802CE400B6F106 /* NotoSansCJKtc-DemiLight.otf */,
+				3CB38B7125802CE400B6F106 /* NotoSansCJKtc-Light.otf */,
+				3CB38B6F25802CE400B6F106 /* NotoSansCJKtc-Medium.otf */,
+				3CB38B6C25802CE400B6F106 /* NotoSansCJKtc-Regular.otf */,
+				3CB38B6E25802CE400B6F106 /* NotoSansCJKtc-Thin.otf */,
+				3CB38B6B25802CE400B6F106 /* NotoSansMonoCJKtc-Bold.otf */,
+				3CB38B7225802CE400B6F106 /* NotoSansMonoCJKtc-Regular.otf */,
+			);
+			path = FontStyle;
+			sourceTree = "<group>";
+		};
+		3CF7E7B02579776C00606A58 = {
+			isa = PBXGroup;
+			children = (
+				3CF7E7BB2579776C00606A58 /* Ian Pizza Company */,
+				3CF7E7CD2579777000606A58 /* Ian Pizza CompanyTests */,
+				3CF7E7D82579777000606A58 /* Ian Pizza CompanyUITests */,
+				3CF7E7BA2579776C00606A58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CF7E7BA2579776C00606A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CF7E7B92579776C00606A58 /* Ian Pizza Company.app */,
+				3CF7E7CA2579777000606A58 /* Ian Pizza CompanyTests.xctest */,
+				3CF7E7D52579777000606A58 /* Ian Pizza CompanyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CF7E7BB2579776C00606A58 /* Ian Pizza Company */ = {
+			isa = PBXGroup;
+			children = (
+				3CB38B892580DB1F00B6F106 /* RootTabView.swift */,
+				3CF7E7FC2579794400606A58 /* HeaderView.swift */,
+				3CF7E866257D00F100606A58 /* PageHeaderView.swift */,
+				3CF7E80525797FE400606A58 /* ListHeaderView.swift */,
+				3CF7E7BE2579776C00606A58 /* ContentView.swift */,
+				3CB38B65257FDF0000B6F106 /* SelectedImageView.swift */,
+				3CF7E7ED2579789600606A58 /* MenuView */,
+				3CF7E7EE257978A600606A58 /* OrderView */,
+				3CF7E7EF257978AE00606A58 /* IngredientView */,
+				3CF7E7F0257978B900606A58 /* Model */,
+				3CF7E7BC2579776C00606A58 /* Ian_Pizza_CompanyApp.swift */,
+				3CF7E7C02579776F00606A58 /* Assets.xcassets */,
+				3CF7E7C52579776F00606A58 /* Info.plist */,
+				3CF7E7C22579776F00606A58 /* Preview Content */,
+			);
+			path = "Ian Pizza Company";
+			sourceTree = "<group>";
+		};
+		3CF7E7C22579776F00606A58 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CF7E7C32579776F00606A58 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CF7E7CD2579777000606A58 /* Ian Pizza CompanyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF7E7CE2579777000606A58 /* Ian_Pizza_CompanyTests.swift */,
+				3CF7E7D02579777000606A58 /* Info.plist */,
+			);
+			path = "Ian Pizza CompanyTests";
+			sourceTree = "<group>";
+		};
+		3CF7E7D82579777000606A58 /* Ian Pizza CompanyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF7E7D92579777000606A58 /* Ian_Pizza_CompanyUITests.swift */,
+				3CF7E7DB2579777000606A58 /* Info.plist */,
+			);
+			path = "Ian Pizza CompanyUITests";
+			sourceTree = "<group>";
+		};
+		3CF7E7ED2579789600606A58 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				3CF7E8282579861500606A58 /* MenuListView.swift */,
+				3CF7E8232579860600606A58 /* MenuRowView.swift */,
+				3CF7E861257B731B00606A58 /* MenuDetailView.swift */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		3CF7E7EE257978A600606A58 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				3CF7E841257B2E3600606A58 /* OrderListView.swift */,
+				3CF7E83C257B2E2C00606A58 /* OrderRowView.swift */,
+				3CB38B912580DD3A00B6F106 /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		3CF7E7EF257978AE00606A58 /* IngredientView */ = {
+			isa = PBXGroup;
+			children = (
+				3CF7E859257B722600606A58 /* IngredientRowView.swift */,
+			);
+			path = IngredientView;
+			sourceTree = "<group>";
+		};
+		3CF7E7F0257978B900606A58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CF7E817257985AD00606A58 /* MenuModel.swift */,
+				3CF7E84E257B307500606A58 /* OrderModel.swift */,
+				3CB38B6A25802CCC00B6F106 /* FontStyle */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CF7E7B82579776C00606A58 /* Ian Pizza Company */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF7E7DE2579777000606A58 /* Build configuration list for PBXNativeTarget "Ian Pizza Company" */;
+			buildPhases = (
+				3CF7E7B52579776C00606A58 /* Sources */,
+				3CF7E7B62579776C00606A58 /* Frameworks */,
+				3CF7E7B72579776C00606A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ian Pizza Company";
+			productName = "Ian Pizza Company";
+			productReference = 3CF7E7B92579776C00606A58 /* Ian Pizza Company.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CF7E7C92579777000606A58 /* Ian Pizza CompanyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF7E7E12579777000606A58 /* Build configuration list for PBXNativeTarget "Ian Pizza CompanyTests" */;
+			buildPhases = (
+				3CF7E7C62579777000606A58 /* Sources */,
+				3CF7E7C72579777000606A58 /* Frameworks */,
+				3CF7E7C82579777000606A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF7E7CC2579777000606A58 /* PBXTargetDependency */,
+			);
+			name = "Ian Pizza CompanyTests";
+			productName = "Ian Pizza CompanyTests";
+			productReference = 3CF7E7CA2579777000606A58 /* Ian Pizza CompanyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CF7E7D42579777000606A58 /* Ian Pizza CompanyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF7E7E42579777000606A58 /* Build configuration list for PBXNativeTarget "Ian Pizza CompanyUITests" */;
+			buildPhases = (
+				3CF7E7D12579777000606A58 /* Sources */,
+				3CF7E7D22579777000606A58 /* Frameworks */,
+				3CF7E7D32579777000606A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF7E7D72579777000606A58 /* PBXTargetDependency */,
+			);
+			name = "Ian Pizza CompanyUITests";
+			productName = "Ian Pizza CompanyUITests";
+			productReference = 3CF7E7D52579777000606A58 /* Ian Pizza CompanyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CF7E7B12579776C00606A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					3CF7E7B82579776C00606A58 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					3CF7E7C92579777000606A58 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 3CF7E7B82579776C00606A58;
+					};
+					3CF7E7D42579777000606A58 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 3CF7E7B82579776C00606A58;
+					};
+				};
+			};
+			buildConfigurationList = 3CF7E7B42579776C00606A58 /* Build configuration list for PBXProject "Ian Pizza Company" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CF7E7B02579776C00606A58;
+			productRefGroup = 3CF7E7BA2579776C00606A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF7E7B82579776C00606A58 /* Ian Pizza Company */,
+				3CF7E7C92579777000606A58 /* Ian Pizza CompanyTests */,
+				3CF7E7D42579777000606A58 /* Ian Pizza CompanyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CF7E7B72579776C00606A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF7E7C42579776F00606A58 /* Preview Assets.xcassets in Resources */,
+				3CB38B7625802CE400B6F106 /* NotoSansCJKtc-DemiLight.otf in Resources */,
+				3CF7E7C12579776F00606A58 /* Assets.xcassets in Resources */,
+				3CB38B7C25802CE400B6F106 /* NotoSansCJKtc-Black.otf in Resources */,
+				3CB38B7425802CE400B6F106 /* NotoSansMonoCJKtc-Bold.otf in Resources */,
+				3CB38B7B25802CE400B6F106 /* NotoSansMonoCJKtc-Regular.otf in Resources */,
+				3CB38B7825802CE400B6F106 /* NotoSansCJKtc-Medium.otf in Resources */,
+				3CB38B7525802CE400B6F106 /* NotoSansCJKtc-Regular.otf in Resources */,
+				3CB38B7725802CE400B6F106 /* NotoSansCJKtc-Thin.otf in Resources */,
+				3CB38B7A25802CE400B6F106 /* NotoSansCJKtc-Light.otf in Resources */,
+				3CB38B7925802CE400B6F106 /* NotoSansCJKtc-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF7E7C82579777000606A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF7E7D32579777000606A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CF7E7B52579776C00606A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF7E83D257B2E2C00606A58 /* OrderRowView.swift in Sources */,
+				3CB38B922580DD3A00B6F106 /* OrderView.swift in Sources */,
+				3CB38B8A2580DB1F00B6F106 /* RootTabView.swift in Sources */,
+				3CF7E8292579861500606A58 /* MenuListView.swift in Sources */,
+				3CF7E8242579860600606A58 /* MenuRowView.swift in Sources */,
+				3CF7E84F257B307500606A58 /* OrderModel.swift in Sources */,
+				3CF7E867257D00F200606A58 /* PageHeaderView.swift in Sources */,
+				3CF7E7BF2579776C00606A58 /* ContentView.swift in Sources */,
+				3CF7E842257B2E3600606A58 /* OrderListView.swift in Sources */,
+				3CF7E862257B731B00606A58 /* MenuDetailView.swift in Sources */,
+				3CF7E81A257985AD00606A58 /* MenuModel.swift in Sources */,
+				3CB38B66257FDF0100B6F106 /* SelectedImageView.swift in Sources */,
+				3CF7E7FD2579794400606A58 /* HeaderView.swift in Sources */,
+				3CF7E7BD2579776C00606A58 /* Ian_Pizza_CompanyApp.swift in Sources */,
+				3CF7E80625797FE400606A58 /* ListHeaderView.swift in Sources */,
+				3CF7E85A257B722600606A58 /* IngredientRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF7E7C62579777000606A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF7E7CF2579777000606A58 /* Ian_Pizza_CompanyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF7E7D12579777000606A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF7E7DA2579777000606A58 /* Ian_Pizza_CompanyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CF7E7CC2579777000606A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF7E7B82579776C00606A58 /* Ian Pizza Company */;
+			targetProxy = 3CF7E7CB2579777000606A58 /* PBXContainerItemProxy */;
+		};
+		3CF7E7D72579777000606A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF7E7B82579776C00606A58 /* Ian Pizza Company */;
+			targetProxy = 3CF7E7D62579777000606A58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CF7E7DC2579777000606A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CF7E7DD2579777000606A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CF7E7DF2579777000606A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ian Pizza Company/Preview Content\"";
+				DEVELOPMENT_TEAM = 59S3W88W93;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ian Pizza Company/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ian.Ian-Pizza-Company";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CF7E7E02579777000606A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ian Pizza Company/Preview Content\"";
+				DEVELOPMENT_TEAM = 59S3W88W93;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ian Pizza Company/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ian.Ian-Pizza-Company";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CF7E7E22579777000606A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ian Pizza CompanyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ian.Ian-Pizza-CompanyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ian Pizza Company.app/Ian Pizza Company";
+			};
+			name = Debug;
+		};
+		3CF7E7E32579777000606A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ian Pizza CompanyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ian.Ian-Pizza-CompanyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ian Pizza Company.app/Ian Pizza Company";
+			};
+			name = Release;
+		};
+		3CF7E7E52579777000606A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ian Pizza CompanyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ian.Ian-Pizza-CompanyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ian Pizza Company";
+			};
+			name = Debug;
+		};
+		3CF7E7E62579777000606A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ian Pizza CompanyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ian.Ian-Pizza-CompanyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ian Pizza Company";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CF7E7B42579776C00606A58 /* Build configuration list for PBXProject "Ian Pizza Company" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF7E7DC2579777000606A58 /* Debug */,
+				3CF7E7DD2579777000606A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF7E7DE2579777000606A58 /* Build configuration list for PBXNativeTarget "Ian Pizza Company" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF7E7DF2579777000606A58 /* Debug */,
+				3CF7E7E02579777000606A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF7E7E12579777000606A58 /* Build configuration list for PBXNativeTarget "Ian Pizza CompanyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF7E7E22579777000606A58 /* Debug */,
+				3CF7E7E32579777000606A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF7E7E42579777000606A58 /* Build configuration list for PBXNativeTarget "Ian Pizza CompanyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF7E7E52579777000606A58 /* Debug */,
+				3CF7E7E62579777000606A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CF7E7B12579776C00606A58 /* Project object */;
+}
